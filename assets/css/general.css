@@ -1,0 +1,23 @@
+/* GENERAL*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.7;
+}
+a {
+	color: #333;
+}
+
+#about,
+#services,
+#target,
+#partner {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#contacts {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}

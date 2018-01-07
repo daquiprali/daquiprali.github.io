@@ -1,0 +1,54 @@
+/*NAVBAR MENU*/
+#menu {
+	padding-bottom: 25px;
+}
+#menu #logo{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#menuItems a{
+	color:black;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 5px;
+	font-size: 12px;
+	border: 2px solid transparent;
+}
+
+#menuItems a:hover{
+	border: 2px solid black;
+	text-decoration: none;
+}
+
+/*TOP SOCIAL NETWORKS*/
+#list-social-networks {
+	position: absolute;
+	top:15px;
+	right: 25px;
+}
+
+#list-social-networks a {
+	color: grey;
+}
+
+/* IMAGE ROW*/
+[data-slides] {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	transition: background-image 1s ease;
+}
+#cover { 
+	height: 400px; 
+}
+
+#cover h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 48px;
+}

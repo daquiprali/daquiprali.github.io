@@ -1,10 +1,6 @@
 markdown: kramdown
 permalink: /:title/
 relative_permalinks: false
-sass:
-  sass_dir: assets/stylesheets
-defaults:
-  category: 'news'
 gems:
   - jekyll-paginate
   - jekyll-redirect-from

@@ -11,7 +11,7 @@
 <meta property="og:site_name" content="DaquiparaLi"/>
 <meta property="og:title" content="DaquiparaLi"/>
 <meta property="og:description" content="Aqui, viajar é para todos!"/>
-<meta property="og:image" content="/img/logoDPL.png">
+<meta property="og:image" content="/assets/img/logoDPL.png">
 <meta property="og:url" content="daquiparali.pt">
 <meta property="og:type" content="site"/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -20,17 +20,19 @@
 <title>DaquiparaLi</title>
 
 <!-- Bootstrap Core CSS -->
-<link href="/libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom Fonts -->
-<link href="/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-<!-- Plugin CSS -->
-<link href="/libraries/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
 <!-- Theme CSS -->
-<link href="/css/index.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/general.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/header.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/footer.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/index.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/information.css" rel="stylesheet" type="text/css">
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106768661-1"></script>
@@ -50,14 +52,14 @@
     <div class="container"> 
         <div class="row" id="logo">
         	<a href="/">
-            	<img src="/img/logoDPL.png" class="img-responsive center-block" width="160" alt="DaquiparaLi logo">
+            	<img src="/assets/img/logoDPL.png" class="img-responsive center-block" width="160" alt="DaquiparaLi logo">
             </a>
         </div>
         <div class="row" id="menuItems">
         	<div class="col-md-8 col-md-offset-2">
 				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 					<a href="/about/team/" class="btn btn-link" role="button">Sobre nós</a>
-					<a href="#" class="btn btn-link" role="button">Serviços</a>
+					<a href="/services" class="btn btn-link" role="button">Serviços</a>
 					<a href="/information/" class="btn btn-link" role="button">Dicas Úteis</a>
 					<a href="https://medium.com/@daquiparalimarketing" class="btn btn-link" role="button" target="_blank">Blog</a>
 					<a href="#contacts" class="btn btn-link" role="button">Contactos</a>
@@ -67,20 +69,29 @@
     </div>
 </section>
 
+<section id="list-social-networks">
+    <p>
+        <a href="https://www.facebook.com/DaquiparaLi-1954787778076158/" target="_blank"><i class="fa fa-facebook fa-1x"></i></a><br>
+        <a href="https://www.instagram.com/daquiparali/" target="_blank"><i class="fa fa-instagram fa-1x"></i></a><br>
+        <a href="" target="_blank"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></i></a><br>
+    </p>
+</section>
+
 <section id="cover" data-slides='[
-        "/img/cover/photo002.jpg",
-        "/img/cover/photo003.jpg",
-        "/img/cover/photo004.jpg",
-        "/img/cover/photo005.jpg",
-        "/img/cover/photo006.jpg",
-        "/img/cover/photo007.jpg",
-        "/img/cover/photo008.jpg",
-        "/img/cover/photo009.jpg",
-        "/img/cover/photo010.jpg",
-        "/img/cover/photo011.jpg",
-        "/img/cover/photo012.jpg",
-        "/img/cover/photo013.jpg",
-        "/img/cover/photo014.jpg"
+        "/assets/img/cover/photo001.jpg",
+        "/assets/img/cover/photo002.jpg",
+        "/assets/img/cover/photo003.jpg",
+        "/assets/img/cover/photo004.jpg",
+        "/assets/img/cover/photo005.jpg",
+        "/assets/img/cover/photo006.jpg",
+        "/assets/img/cover/photo007.jpg",
+        "/assets/img/cover/photo008.jpg",
+        "/assets/img/cover/photo009.jpg",
+        "/assets/img/cover/photo010.jpg",
+        "/assets/img/cover/photo011.jpg",
+        "/assets/img/cover/photo012.jpg",
+        "/assets/img/cover/photo013.jpg",
+        "/assets/img/cover/photo014.jpg"
     ]'>
     <h1 id="coverHeading">Viajar é para todos. <i class="fa fa-plane" aria-hidden="true"></i></h1>
 </section>
@@ -89,33 +100,99 @@
     <main role="main" class="content">
 
       <section>
-	<div class="row">
-        <div class="col-md-8 col-md-offset-2">
-			<h1>Para onde vou</h1>
-			<ul>
-				<li>
-					<b>Janeiro: </b>
-					Costa do Marfim, Porto Rico, Senegal, Maldivas, Chile, Índia, Recife - Brasil, Cabo Verde, Barbados e Tailândia.
-				</li>
-			</ul>
+	<div class="container">
+		<div class="row" id="whereToGo">
+	        <div class="col-md-8 col-md-offset-2">
+				<h1>Para onde vou</h1>
+				<ul>
+					<li>
+						<b>Janeiro: </b>
+						Costa do Marfim, Porto Rico, Senegal, Maldivas, Chile, Índia, Recife - Brasil, Cabo Verde, Barbados e Tailândia.
+					</li>
+					<li>
+						<b>Fevereiro: </b>
+						Miami, Sri Lanka, Tanzânia, Hawai, Rio de Janeiro - Brasil. Havana - Cuba e Estocolmo.
+					</li>
+					<li>
+						<b>Março: </b>
+						Havana - Cuba, Sevilha, Bahamas, Alasca, Bonito-Brasil, Nova Zelândia, Panamá, Quioto - Japão, Holanda.
+					</li>
+					<li>
+						<b>Abril: </b>
+						Dinamarca, Colômbia, Paris, Los Angeles - EUA, Casablanca - Marrocos, Cancún - México, Holanda, Canadá, Pequim - China e Argentina.
+					</li>
+					<li>
+						<b>Maio: </b>
+						Itália, Bali, França, Xangai - China, Massachusetts, Barcelona, Dinamarca, Malta Aruba e Mónaco.
+					</li>
+					<li>
+						<b>Junho: </b>
+						Kauai - Havai, Chicago, Montego Bay, Londres, Pequim-China, Zagreb - Croácia.
+					</li>
+					<li>
+						<b>Julho: </b>
+						Islândia, Indonésia, Bermudas, Maurícias, Peru, Bolívia, Córsega.
+					</li>
+					<li>
+						<b>Agosto: </b>
+						Europa, Irlanda, Escócia, Holanda, Norte da Austrália, Magrebe, Quénia e Tanzânia, Bahamas, Quito- Equador, Creta - Itália.
+					</li>
+					<li>
+						<b>Setembro: </b>
+						Ilhas Baleares, Madeira, Cabo Verde, Itália, Croácia, Espanha, Bogotá - Colômbia.
+					</li>
+					<li>
+						<b>Outubro: </b>
+						Costa Brava - Espanha, Marrocos, Grécia, Polinésia Francesa, Chipre, Lanzarote, Maurícias,Havaí, Bali, Emirados Árabes Unidos.
+					</li>
+					<li>
+						<b>Novembro: </b>
+						Capitais Europeias, México, França, Belize, Ilhas Andamam - Índia, Canadá.
+					</li>
+					<li>
+						<b>Dezembro: </b>
+						Viena - Áustria, Camboja, Praga, Munique, México, Guatemala, Jacarta - Indonésia.
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
 
 <section>
-	<div class="row">
-        <div class="col-md-8 col-md-offset-2">
-			<h1>Antes de Viajar</h1>
-			<p>Push your water glass on the floor attack dog, run away and pretend to be victim kitty scratches couch bad kitty or bleghbleghvomit my furball really tie the room together or eat owner's food. Hide at bottom of staircase to trip human cats secretly make all the worlds muffins and caticus cuteicus human is washing you why halp oh the horror flee scratch hiss bite claw at curtains stretch and yawn nibble on tuna ignore human bite human hand. Bleghbleghvomit my furball really tie the room together mark territory, or find empty spot in cupboard and sleep all day and sometimes switches in french and say "miaou" just because well why not. Destroy couch as revenge i cry and cry and cry unless you pet me, and then maybe i cry just for fun but touch water with paw then recoil in horror. Howl on top of tall thing roll on the floor purring your whiskers off yet scratch at the door then walk away for eat a plant, kill a hand and eat half my food and ask for more so sniff sniff. Pose purrfectly to show my beauty rub face on owner and hunt anything that moves wack the mini furry mouse so play riveting piece on synthesizer keyboard for steal the warm chair right after you get up so unwrap toilet paper. Gate keepers of hell hiding behind the couch until lured out by a feathery toy. Pose purrfectly to show my beauty sit and stare play time then cats take over the world. Purr for no reason try to jump onto window and fall while scratching at wall and stare at ceiling light. A nice warm laptop for me to sit on yowling nonstop the whole night run outside as soon as door open scratch the box chase dog then run away and this cat happen now, it was too purr-fect!!!. Use lap as chair has closed eyes but still sees you for lie on your belly and purr when you are asleep for kitty kitty. Milk the cow walk on car leaving trail of paw prints on hood and windshield. Soft kitty warm kitty little ball of furr bleghbleghvomit my furball really tie the room together so throwup on your pillow cereal boxes make for five star accommodation for thinking longingly about tuna brine, swat turds around the house. Ask for petting vommit food and eat it again so dont wait for the storm to pass, dance in the rain so chase mice stand in front of the computer screen, for slap owner's face at 5am until human fills food dish hiss and stare at nothing then run suddenly away. Lie in the sink all day purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff and mrow friends are not food but chew iPad power cord, stand in front of the computer screen. Step on your keyboard while you're gaming and then turn in a circle . Hide head under blanket so no one can see sleep in the bathroom sink yet ask for petting cat fur is the new black . Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Poop in litter box, scratch the walls run in circles, but sleep on keyboard. Need to chase tail purr meow meow, i tell my human, or jump off balcony, onto stranger's head purr for no reason when in doubt, wash but chase red laser dot. Paw at your fat belly leave dead animals as gifts, yet going to catch the red dot today going to catch the red dot today eats owners hair then claws head. Spill litter box, scratch at owner, destroy all furniture, especially couch furrier and even more furrier hairball ask for petting playing with balls of wool and spend all night ensuring people don't sleep sleep all day. </p>
+	<div class="container">
+		<div class="row">
+	        <div class="col-md-8 col-md-offset-2">
+				<h1>Antes de Viajar</h1>
+				<p>Na hora de viajar, existem alguns aspetos a ter em conta. Deixamos algumas dicas e sugestões para que seja tudo mais fácil.</p>
+
+				<ol>
+					<li>Anote tudo o que quer levar consigo e o que precisa ( inclusive medicação que toma diariamente );</li>
+					<li>Avise o seu banco da sua viagem caso exista alguma restrição no seu cartão para compras internacionais;</li>
+					<li>Faça um seguro de viagem;</li>
+					<li>Caso leve bagagem de mão, verifique o que é ou não permitido levar;</li>
+					<li>Faça a consulta do viajante e tome as vacinas aconselhadas, quando o destino assim o exige;</li>
+					<li>Verifique se o seu passaporte está válido. Alguns destinos exigem um prazo de validade até 6 meses após a viagem;</li>
+					<li>Caso viaje para U.E verifique o seu cartão de cidadão está válido.Peça também o Cartão  Europeu de Saúde;</li>
+					<li>Caso haja a possibilidade de conduzir no país de destino deve verificar se a carta de condução é reconhecida no país de destino;</li>
+					<li>Tenha em atenção se necessita de um visto para entrar no país. Podemos ajudá-lo a obtê-lo;</li>
+					<li>Deixe fotocópias dos seus documentos de identificação e do hotel onde ficar alojado aos seus familiares;</li>
+					<li>Informe-se acerca das condições sanitárias, de assistências médica das estruturas de apoio existentes no destino em caso de acidente, catástrofe natural, entre outras situações que podem acontecer;</li>
+					<li>Informe-se das regras e leis existentes no país que vai visitar. Há países com regras extremamente rigorosas;</li>
+					<li>Informe-se acerca da cultura, regras e costumes do país de visita e respeite as regras locais relativa a vestuário e postura a adoptar.</li>
+				</ol>
+			</div>
 		</div>
 	</div>
 </section>
 
 <section>
-	<div class="row">
-        <div class="col-md-8 col-md-offset-2">
-			<h1>Cuidados a ter</h1>
-			<p>Always hungry. Cats go for world domination rub whiskers on bare skin act innocent for hide from vacuum cleaner but push your water glass on the floor. Lick butt spit up on light gray carpet instead of adjacent linoleum. Play riveting piece on synthesizer keyboard attack dog, run away and pretend to be victim mrow chase the pig around the house cough furball into food bowl then scratch owner for a new one yet lick the other cats. Use lap as chair stand in front of the computer screen scratch the furniture. </p>
+	<div class="container">
+		<div class="row">
+	        <div class="col-md-8 col-md-offset-2">
+				<h1>Cuidados a ter</h1>
+				<p>TO DO</p>
+			</div>
 		</div>
 	</div>
 </section>
@@ -124,20 +201,30 @@
 
     <section id="contacts">
     <div class="container">
+
     	<div class="row" id="social-networks">
             <div class="col-md-10">
-    			<center>
-                    <p class="text-left">#viagensparatodos</p>
-                    <!-- LightWidget WIDGET -->
-                    <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-                    <iframe src="//lightwidget.com/widgets/8272d895ef5a5d47ae7688ff111de0ca.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                </center>
+                <div class="row top">
+                    <div class="col-xs-2 text-center" id="insta-logo">
+                        <img src="/assets/img/logoDPL_square.jpg">
+                    </div>
+                    <div class="col-xs-4 bottom-column">
+                        <p><b>DaquiparaLi</b></p>
+                        <p>Agência de Viagens para TODOS</p>
+                    </div>
+                    <div class="col-xs-6 bottom-column">
+                        <button class="btn btn-default">Siga-nos no Instagram</button>
+                    </div>
+                </div>
+                <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+                <iframe src="//lightwidget.com/widgets/8272d895ef5a5d47ae7688ff111de0ca.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                <!-- LightWidget WIDGET -->
+                <p class="text-right insta-hashtag">#viagensParaTodos</p>
     		</div>
-            <div class="col-md-2 text-left">
-                <p>Segue-nos em:</p>
-                <a href="https://www.facebook.com/DaquiparaLi-1954787778076158/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-                <a href="https://www.instagram.com/daquiparali/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-                <a href="https://www.instagram.com/daquiparali/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></i></a>
+            <div class="col-md-2 text-left side">
+                <p><b>Siga-nos em:</b></p>
+                <a href="https://www.facebook.com/DaquiparaLi-1954787778076158/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a> &nbsp;
+                <a class="hidden" href="https://www.instagram.com/daquiparali/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 
             </div>
     	</div>
@@ -163,12 +250,14 @@
                             <i class="fa fa-phone"></i><a href="tel:00351913389953"> (+351) 91 420 05 01</a>
                         </p>
                         <p>
-                            Atendimento em Língua Gestual Portuguesa: <br>
+                            <b>Atendimento em Língua Gestual Portuguesa: </b><br>
                             <i class="fa fa-skype"></i> <i class="fa fa-video-camera"></i><a href="mailto:andretaipina@daquiparali.pt"> andretaipina@daquiparali.pt</a>
                         </p>
                     </div>
                     <div class="col-sm-4">
-                        <p>Adira à nossa lista de correio para se manter a par das novidades!</p>
+                        <p>
+                            <b>Lista de correio:</b><br>
+                            Adira à nossa lista de correio para se manter a par das novidades!</p>
                         <!-- Begin MailChimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
@@ -193,24 +282,20 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-muted">
-                Feito com <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> por <a href="http://www.inescoelho.info/" target="_blank">Inês Coelho</a>
+                <p><small>Feito com <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> por <a href="http://www.inescoelho.info/" target="_blank">Inês Coelho</a></small></p>
             </div>
         </div>
     </div>
 </footer>
 
 <!-- jQuery -->
-<script src="/libraries/jquery/jquery.min.js"></script>
+<script src="/assets/libraries/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/libraries/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="/libraries/scrollreveal/scrollreveal.min.js"></script>
-<script src="/libraries/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/assets/libraries/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Theme JavaScript -->
-<script src="/js/index.js"></script>
+<script src="/assets/js/header.js"></script>
 
   </body>
 </html>

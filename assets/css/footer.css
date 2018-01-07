@@ -1,0 +1,41 @@
+#social-networks {
+	padding-bottom: 50px;
+	position: relative;
+}
+
+#contacts,
+footer {
+	background-color: #f7f7f7;
+}
+
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#social-networks .top {
+	padding-bottom: 10px;
+	display: table;
+}
+
+#social-networks #insta-logo img{
+	border-radius: 50%;
+	width: 85px;
+	height: 85px;
+	border: 1px solid lightgrey;
+}
+
+#social-networks .side {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
+
+#contacts .insta-hashtag{
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	color: grey;
+	//margin:0;
+}

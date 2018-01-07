@@ -1,18 +1,19 @@
-#social-networks {
-	padding-bottom: 50px;
-	position: relative;
-}
-
+#social-networks,
 #contacts,
 footer {
 	background-color: #f7f7f7;
 }
 
-.bottom-column
-{
-    float: none;
-    display: table-cell;
-    vertical-align: bottom;
+#social-networks {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#contacts {
+	padding-bottom: 20px;
+}
+
+#social-networks #insta{
+	position: relative;
 }
 
 #social-networks .top {
@@ -27,15 +28,30 @@ footer {
 	border: 1px solid lightgrey;
 }
 
-#social-networks .side {
-    position: absolute;
-    bottom: 80px;
-    right: 0;
+#social-networks  .insta-hashtag{
+	font-family: 'Satisfy', cursive;
+	font-size: 46px;
+	color: grey;
+	margin:0;
 }
 
-#contacts .insta-hashtag{
-	font-family: 'Satisfy', cursive;
-	font-size: 40px;
-	color: grey;
-	//margin:0;
+
+@media (min-width: 768px) {
+	#social-networks .side {
+	    position: absolute;
+	    bottom: 0px;
+	    right: 0;
+	}
+	#social-networks .bottom-column
+	{
+	    float: none;
+	    display: table-cell;
+	    vertical-align: bottom;
+	}
+}
+
+
+
+#contacts .group-contacts {
+	padding-top: 10px;
 }

@@ -16,7 +16,7 @@
 }
 
 #beforeTravel ol li {
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 @media (min-width: 768px) {

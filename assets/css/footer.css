@@ -34,7 +34,7 @@ footer {
 
 #social-networks  .insta-hashtag{
 	font-size: 26px;
-	color: grey;
+	//color: grey;
 	margin:0;
 }
 @media (min-width: 440px) {

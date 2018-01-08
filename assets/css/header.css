@@ -16,7 +16,8 @@
 	margin-right: 10px;
 }
 
-#menuItems a:hover{
+#menuItems a:hover,
+#menuItems .active {
 	border: 2px solid black;
 	text-decoration: none;
 }

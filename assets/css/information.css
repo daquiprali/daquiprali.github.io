@@ -1,4 +1,26 @@
+#whereToGo {
+	padding-top: 50px;
+}
+
 #whereToGo ul {
 	list-style: none;
 	padding-left: 0;
+}
+#whereToGo ul li{
+	padding-bottom: 10px;
+}
+
+#beforeTravel {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+#beforeTravel ol li {
+	padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+	#beforeTravel {
+		padding-top: 50px;
+	}
 }

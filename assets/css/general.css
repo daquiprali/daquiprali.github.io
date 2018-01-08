@@ -10,9 +10,22 @@ a {
 	color: #333;
 }
 
-#about,
-#services,
-#target,
+@media (min-width: 768px) {
+	h1.title{
+		font-size: 45px;
+		font-style: bold;
+		padding-bottom: 20px;
+	}
+	p.bigger,
+	ul.bigger li,
+	ol.bigger li{
+		font-size: 16px;
+	}
+	p.bigger2 {
+		font-size: 18px;
+	}
+}
+
 #partner {
 	padding-top: 50px;
 	padding-bottom: 50px;

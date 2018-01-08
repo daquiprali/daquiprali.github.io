@@ -32,11 +32,11 @@ a:hover {
 
 .btn-outline {
 	background-color: white;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	text-decoration: none;
 }
 .btn-outline:hover {
-	border: 2px solid black;
+	border: 1px solid black;
 	text-decoration: none;
 	font-weight: 800;
 }

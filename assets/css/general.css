@@ -10,6 +10,9 @@ body {
 a {
 	color: black;
 }
+a:hover {
+	color: grey;
+}
 
 @media (min-width: 768px) {
 	h1.title{
@@ -25,6 +28,17 @@ a {
 	p.bigger2 {
 		font-size: 18px;
 	}
+}
+
+.btn-outline {
+	background-color: white;
+	border: 1px solid grey;
+	text-decoration: none;
+}
+.btn-outline:hover {
+	border: 2px solid black;
+	text-decoration: none;
+	font-weight: 800;
 }
 
 #partner {

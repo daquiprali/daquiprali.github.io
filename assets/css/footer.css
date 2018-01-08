@@ -20,6 +20,9 @@ footer {
 	padding-bottom: 10px;
 	display: table;
 }
+#social-networks .btn {
+	margin-bottom: 30px;
+}
 
 #social-networks #insta-logo img{
 	border-radius: 50%;
@@ -54,8 +57,13 @@ footer {
 	}
 }
 
-
-
 #contacts .group-contacts {
 	padding-top: 10px;
+}
+
+footer .glyphicon-heart {
+	color: #333;
+}
+footer a {
+	color: grey;
 }

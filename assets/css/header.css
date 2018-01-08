@@ -32,6 +32,9 @@
 #list-social-networks a {
 	color: grey;
 }
+#list-social-networks a:hover {
+	color: #333;
+}
 
 /* IMAGE ROW*/
 [data-slides] {

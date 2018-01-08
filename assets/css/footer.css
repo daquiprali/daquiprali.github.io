@@ -29,12 +29,16 @@ footer {
 }
 
 #social-networks  .insta-hashtag{
-	font-family: 'Satisfy', cursive;
-	font-size: 46px;
+	//font-family: 'Satisfy', cursive;
+	font-size: 26px;
 	color: grey;
 	margin:0;
 }
-
+@media (min-width: 440px) {
+	#social-networks  .insta-hashtag{
+		font-size: 40px;
+	}
+}
 
 @media (min-width: 768px) {
 	#social-networks .side {

@@ -5,9 +5,10 @@ body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   line-height: 1.7;
+  color: black;
 }
 a {
-	color: #333;
+	color: black;
 }
 
 @media (min-width: 768px) {

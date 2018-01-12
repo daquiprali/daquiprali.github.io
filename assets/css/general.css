@@ -7,6 +7,8 @@ body {
   line-height: 1.7;
   color: black;
 }
+
+/*LINKS*/
 a {
 	color: black;
 }
@@ -14,22 +16,22 @@ a:hover {
 	color: grey;
 }
 
+/*TEXT*/
 @media (min-width: 768px) {
-	h1.title{
+	.content h1{
 		font-size: 45px;
 		font-style: bold;
 		padding-bottom: 20px;
 	}
-	p.bigger,
-	ul.bigger li,
-	ol.bigger li{
+	.content p,
+	.content ul li,
+	.content ol li{
 		font-size: 16px;
-	}
-	p.bigger2 {
-		font-size: 18px;
+		text-align: justify;
 	}
 }
 
+/*BUTTON*/
 .btn-outline {
 	background-color: white;
 	border: 1px solid lightgrey;
@@ -41,7 +43,8 @@ a:hover {
 	font-weight: 800;
 }
 
-#partner {
+/*MAIN*/
+/*.main {
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
+}*/

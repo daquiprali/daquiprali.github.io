@@ -57,7 +57,7 @@
   left: 0;
   transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
-  text-align: center;
+  text-align: justify;
 }
 #service-photos .figTitle {
     position: absolute;

@@ -9,11 +9,11 @@
 
 
 #quote {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 }
 #target {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 #service-photos figure {
@@ -72,4 +72,10 @@
     opacity: 0.8;
     padding: 10px 10px 10px 10px;
     margin-right: 15px;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  #service-photos .figTitle {
+    left: calc(calc(100% - 500px)/2);
+  }
 }

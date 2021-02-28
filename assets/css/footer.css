@@ -1,67 +1,70 @@
 footer {
-	background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 #social-networks {
-	padding-top: 50px;
-	padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 #contacts {
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#social-networks #insta{
-	position: relative;
+#social-networks #insta {
+  position: relative;
 }
 
 #social-networks .top {
-	padding-bottom: 10px;
-	display: table;
+  padding-bottom: 10px;
+  display: table;
 }
 #social-networks .btn {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-#social-networks #insta-logo img{
-	border-radius: 50%;
-	width: 85px;
-	height: 85px;
-	border: 1px solid lightgrey;
+#social-networks #insta-logo img {
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  border: 1px solid lightgrey;
 }
 
-#social-networks  .insta-hashtag{
-	font-size: 26px;
-	//color: grey;
-	margin:0;
-	padding-top: 0;
+#social-networks .insta-hashtag {
+  font-size: 26px;
+  margin: 0;
+  padding-top: 0;
 }
 @media (min-width: 440px) {
-	#social-networks  .insta-hashtag{
-		font-size: 36px;
-	}
+  #social-networks .insta-hashtag {
+    font-size: 36px;
+  }
 }
 
 @media (min-width: 768px) {
-	#social-networks .side {
-	    position: absolute;
-	    bottom: 0px;
-	    right: 0;
-	}
-	#social-networks .bottom-column
-	{
-	    float: none;
-	    display: table-cell;
-	    vertical-align: bottom;
-	}
+  #social-networks .side {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+  }
+  #social-networks .bottom-column {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+  }
 }
 
 #contacts .group-contacts {
-	padding-top: 10px;
+  padding-top: 10px;
+}
+
+#contacts .complain-book {
+  padding-top: 10px;
+  width: 150px;
 }
 
 #credits .glyphicon-heart {
-	color: #333;
+  color: #333;
 }
 #credits a {
-	color: grey;
+  color: grey;
 }
